@@ -6,7 +6,7 @@ import { AiFillProject } from "react-icons/ai"
 export const MainMenu = () => {
   return <>
 
-    <div className="my-6 flex gap-2 flex-wrap flex-col" >
+    <div className="my-6 flex gap-2 flex-wrap flex-col md:px-24 lg:px-28" >
       <MenuPage icon={
         <FaCircleInfo />
       }

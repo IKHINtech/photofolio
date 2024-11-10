@@ -42,7 +42,7 @@ export default function RootLayout({
       <meta name="twitter:image" content="/profile.png" />
       <meta name="twitter:url" content="/profile.png " />
       <body
-        className={`${courierNew.variable} ${courierNewBold.variable} antialiased`}
+        className={`${courierNew.variable} ${courierNewBold.variable} antialiased min-h-screen grid grid-rows-[1fr_auto]`}
       >
         {children}
         <Footer />

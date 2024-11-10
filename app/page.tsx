@@ -36,8 +36,8 @@ export default function Home() {
 
 
   return (
-    <div className="items-center justify-items-center min-h-screen font-[family-name:var(--font-courier-new-bold)]">
-      <div className="flex flex-col md:w-1/2 p-8 pb-20 sm:p-20" >
+    <div className="items-center justify-items-center h-[calc(100vh-3.3rem)]  font-[family-name:var(--font-courier-new-bold)]">
+      <div className="flex flex-col p-8 pb-20 sm:p-20" >
         <div className="flex justify-center">
           <Image
             aria-hidden
