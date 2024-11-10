@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    const handleKeyDown = (event: any) => {
+    const handleKeyDown = (event: KeyboardEvent) => {
       switch (event.key) {
         case 'a':
           router.push('/about');
