@@ -1,9 +1,4 @@
 import Image from "next/image";
-import { FaGithub } from "react-icons/fa";
-import { ProfileMenu } from "./components/profileMenu";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-import { MdOutlineEmail } from "react-icons/md";
 import { MainMenu } from "./components/mainMenu";
 import { SosmedMenu } from "./components/sosmedMenu";
 
