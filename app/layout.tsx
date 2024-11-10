@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Footer } from "./components/footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const courierNew = localFont({
+  src: "./fonts/courier-new-webfont.woff",
+  variable: "--font-courier-new",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+
+const courierNewBold = localFont({
+  src: "./fonts/Courier-New-Bold-Italic-font.ttf",
+  variable: "--font-courier-new-bold",
   weight: "100 900",
 });
 
@@ -40,9 +42,10 @@ export default function RootLayout({
       <meta name="twitter:image" content="/profile.png" />
       <meta name="twitter:url" content="/profile.png " />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${courierNew.variable} ${courierNewBold.variable} antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
